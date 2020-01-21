@@ -1,0 +1,28 @@
+@keyframes animationContent
+{
+    0%
+    {
+        color: transparent;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    100%
+    {
+      color: rgb(9, 0, 87);
+    }
+}
+
+@keyframes moveText 
+{
+  0% {
+    margin-left: -50px;
+    color: transparent;
+  }
+  100% {
+    margin-left: 10px;
+    color: rgb(1, 7, 82);
+  }
+}
+
